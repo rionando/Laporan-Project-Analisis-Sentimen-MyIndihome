@@ -32,6 +32,7 @@ Dataset yang saya gunakan pada kasus ini bersumber dari playsotre review aplikas
 
 ## Data Understanding
 Jumlah data yang berhasil di dapat dari scraping adalah 65066
+
 ![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/jumlah%20data.jpg)
 
 berikut merupakan variable yang akan kita gunakan dalam proses analisis sentimen
