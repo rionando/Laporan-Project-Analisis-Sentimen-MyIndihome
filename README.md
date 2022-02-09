@@ -86,7 +86,9 @@ Accuracy = (TP+TN)/(TP+FP+FN+TN)
 Akurasi adalah proporsi hasil yang benar di antara jumlah total kasus yang diperiksa.
 
 dari model svm dan logistics reggression sebenarnya memiliki hasil yang tidak jauh beda yaitu
+
 SVM                   : 0.9580766461316905
+
 Logistics Regression  : 0.9583166653332267
 
 dari hasil tersebut model Logistics Regression memiliki tingkat akurasi paling tinggi
