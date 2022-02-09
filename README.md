@@ -1,7 +1,7 @@
 # Laporan Proyek Analisis Sentimen Aplikasi MyIndohome - Muhammad Rionando D
 ## Perbandingan Analisis Sentimen Review Aplikasi MyIndihome Menggunakan Algoritma Support Vector Machine (SVM) dan Logistic Regression  
 
-Project Intern Telkom REG 4
+### Project Intern Telkom REG 4
 ![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/Telkom%20Semarang.jpg)
 
 ## Domain Proyek
@@ -9,7 +9,7 @@ Domain yang akan digunakan dalam proyek ini adalah di bidang Telekomunikasi dan 
 
 ## Business Understanding
 Pada kasus ini saya ingin melakukan analisis sentimen terhadap review aplikasi MyIndihome yang terdapat pada PlayStore yang telah di unduh lebih dari 5juta kali dan mendapatkan ratings rata rata 3/5 dari 130.706 pengguna dan bayak yang memberikan rating 1 atas aplikasi ini.
-
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/myIndiHome.jpeg)
 
 
 ### Problem Statements
