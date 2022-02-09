@@ -18,7 +18,7 @@ Pada kasus ini saya ingin melakukan analisis sentimen terhadap review aplikasi M
 
 ### Goals
 1. Mengetahui hasil analisis sentimen data review pengguna aplikasi myIndiHome yang ada pada playstore
-2. Membuat model machine learning terbaik untuk memprediksi kasus ini
+2. Membuat model machine learning terbaik untuk analisis sentimen pada kasus ini
 
 ### Solution statements
 Pada kasus kali ini saya menggunakan 2 model machine learning yaitu:
