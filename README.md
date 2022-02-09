@@ -24,13 +24,17 @@ Pada kasus ini saya ingin melakukan analisis sentimen terhadap review aplikasi M
 Pada kasus kali ini saya menggunakan 2 model machine learning yaitu:
 - **SVM**. Support Vector Machine (SVM) merupakan salah satu metode dalam supervised learning yang biasanya digunakan untuk klasifikasi (seperti Support Vector Classification) dan regresi (Support Vector Regression). Dalam pemodelan klasifikasi, SVM memiliki konsep yang lebih matang dan lebih jelas secara matematis dibandingkan dengan teknik-teknik klasifikasi lainnya.
 - **Logistics Regression**. Regresi logistik (kadang disebut model logistik atau model logit), dalam statistika digunakan untuk prediksi probabilitas kejadian suatu peristiwa dengan mencocokkan data pada fungsi logit kurva logistik.
-- 
+
 ## Data Scraping
 Dataset yang saya gunakan pada kasus ini bersumber dari playsotre review aplikasi myIndihome yang saya dapatkan dari scraping menggunakan library google-play-scraper yang terdapat pada python dan di run menggunakan google colab berikut merupakan link [notebooknya](https://github.com/rionando/Scraping-Data-Playstore/blob/main/Scrapping_MyIndihome.ipynb) 
 ![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/data%20scraping%201.jpg)
 ![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/data%20scraping%202.jpg)
 
 ## Data Understanding
+Jumlah data yang berhasil di dapat dari scraping adalah 65066
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/jumlah%20data.jpg)
+
+berikut merupakan variable yang akan kita gunakan dalam proses analisis sentimen
 ![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/data%20understanding.jpg)
 
 - Username : Username Pengguna
