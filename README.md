@@ -1,5 +1,8 @@
 # Laporan Proyek Analisis Sentimen Aplikasi MyIndohome - Muhammad Rionando D
+## Perbandingan Analisis Sentimen Review Aplikasi MyIndihome Menggunakan Algoritma Support Vector Machine (SVM) dan Logistic Regression  
+
 Project Intern Telkom REG 4
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/Telkom%20Semarang.jpg)
 
 ## Domain Proyek
 Domain yang akan digunakan dalam proyek ini adalah di bidang Telekomunikasi dan layanan internet. PT Telkom Indonesia (Persero) Tbk, biasa disebut Telkom Indonesia atau Telkom saja adalah perusahaan informasi dan komunikasi serta penyedia jasa dan jaringan telekomunikasi secara lengkap di Indonesia. Telkom mengklaim sebagai perusahaan telekomunikasi terbesar di Indonesia. Salah produk layanannya adalah Indihome. yang merupakan paket layanan komunikasi dan data seperti telepon rumah (voice), internet (Internet on Fiber atau High Speed Internet), dan layanan televisi interaktif (UseeTV Cable, IPTV). Untuk mempermudah penggunaanya Telkom meluncurkan aplikasi MyIndihome akan tetapi banyak komplain dari pengguna mengenai aplikasi tersebut. sedangkan sentiment analysis adalah proses menganalisis tulisan online untuk menentukan nada emosional dari penulisnya
