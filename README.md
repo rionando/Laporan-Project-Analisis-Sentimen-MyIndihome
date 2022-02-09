@@ -1,5 +1,4 @@
-# Laporan Proyek Analisis Sentimen Aplikasi MyIndohome 
-- Muhammad Rionando D
+# Laporan Proyek Analisis Sentimen Aplikasi MyIndohome - Muhammad Rionando D
 ## Perbandingan Analisis Sentimen Review Aplikasi MyIndihome Menggunakan Algoritma Support Vector Machine (SVM) dan Logistic Regression  
 
 ### Project Intern Telkom REG 4
@@ -28,54 +27,40 @@ Pada kasus kali ini saya menggunakan 2 model machine learning yaitu:
 - 
 ## Data Scraping
 Dataset yang saya gunakan pada kasus ini bersumber dari playsotre review aplikasi myIndihome yang saya dapatkan dari scraping menggunakan library google-play-scraper yang terdapat pada python dan di run menggunakan google colab berikut merupakan link [notebooknya](https://github.com/rionando/Scraping-Data-Playstore/blob/main/Scrapping_MyIndihome.ipynb) 
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/data%20scraping%201.jpg)
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/data%20scraping%202.jpg)
 
 ## Data Understanding
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/data%20understanding.jpg)
 
-- id : ID pelanggan
-- age : Usia
-- experience : Pengalaman Kerja
-- income : Pendapatan 
-- zip_code : Kode Pos
-- family : Status Keluarga
-- ccavg : Rata-rata pengeluaran kartu kredit
-- education : Pendidikan
-- mortgage : Tanggungan KPR.
-- personal_loan : Apakah pelanggan menerima tawaran campaing sebelumnya
-- securities_account : Apakah memiliki akun pengamab?
-- cd_account : Apakah Pelanggan memiliki deposio?
-- online : Apakah Menggunakan Internet Banking?
-- creditcard : apakah menggunakan credit card?
+- Username : Username Pengguna
+- score : ratings
+- at : waktu review
+- content : review pengguna
 
 ## Data Preparation
 ### Pelabelan
 Melakukan pelabelan terhadap komen review oleh pengguna berdasarkan nilai ratings yang mereka berikan disini saya mebaginya menjadi 2 yaitu ratings 1-3 artinya buruk atau negatif dan ratings 4-5 artinya positif atau bagus 
-![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/appmyindihome.jpeg)
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/pelabelan.jpg)
 
 ### Cleansing dan penggunaan stopword
 Cleansing merupakan step data yang akan diolah harus dibersihkan terlebih dahulu. Proses cleansing dalam text mining bisa berupa menghapus tanda baca seperti koma, titik, tanda seru dan lain lain. Selain itu juga jika diperlukan stopwords, stemming, lemmatization, dan top frequent dan low frequent.
-![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/appmyindihome.jpeg)
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/preprosses.jpg)
 
 ## Modeling
-Pada Kasus ini saya menggunakan 3 model machine learning yaitu Decision tree, Random forest dan KNN dan metric yang saya gunakan kali ini hanyalah Accuracy
+Pada Kasus ini saya menggunakan 2 model machine learning yaitu Support Vector Machine (SVM) dan Logistics Regression serta metric yang saya gunakan kali ini hanyalah Accuracy
 
-### Decision Tree
-Cara kerja model decision tree dimulai dengan satu node atau simpul. Kemudian, node tersebut bercabang untuk menyatakan pilihan-pilihan yang ada. Selanjutnya, setiap cabang tersebut akan memiliki cabang-cabang baru. Oleh karenanya, metode ini disebut 'tree' karena bentuknya menyerupai pohon yang memiliki banyak cabang.
-
-Untuk Hasil Accuracynya
-![alternate text](https://github.com/rionando/MLT-1/blob/main/iamge%205.jpg?raw=true)
-
-### Random Forest
-Random forest termasuk ke dalam kelompok model ensemble (group). Apa itu model ensemble? Sederhananya, ia merupakan model prediksi yang terdiri dari beberapa model dan bekerja secara bersama-sama. Ide dibalik model ensemble adalah sekelompok model yang bekerja bersama menyelesaikan masalah. Sehingga, tingkat keberhasilan akan lebih tinggi dibanding model yang bekerja sendirian. Pada model ensemble, setiap model harus membuat prediksi secara independen. Kemudian, prediksi dari setiap model ensemble ini digabungkan untuk membuat prediksi akhir. 
+### SVM
+Cara kerja dari metode Support Vector Machine khususnya pada masalah non-linear adalah dengan memasukkan konsep kernel ke dalam ruang berdimensi tinggi. Tujuannya adalah untuk mencari hyperplane atau pemisah yang dapat memaksimalkan jarak (margin) antar kelas data.
 
 Untuk Hasil Accuracynya
-![alternate text](https://github.com/rionando/MLT-1/blob/main/iamge%206.jpg?raw=true)
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/acc%20svm.jpg)
 
+### Logistics Regression
+Logistic Regression adalah sebuah algoritma klasifikasi untuk mencari hubungan antara fitur (input) diskrit/kontinu dengan probabilitas hasil output diskrit tertentu.
 
-### KNN
-KNN bekerja dengan membandingkan jarak satu sampel ke sampel pelatihan lain dengan memilih sejumlah k-tetangga terdekat. Nah, itulah mengapa algoritma ini dinamakan K-nearest neighbor (sejumlah k tetangga terdekat). KNN bisa digunakan untuk kasus klasifikasi dan regresi. Pada modul ini, kita akan menggunakannya untuk kasus regresi.
-
-Untuk Hasil Accuracynya
-![alternate text](https://github.com/rionando/MLT-1/blob/main/image%207.jpg?raw=true)
+Untuk Hasil Accuracynya.
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/acc%20logistics%20regression.jpg)
 
 ## Evaluation
 ### Confusion Matrics
@@ -90,12 +75,13 @@ Interpretasi: Anda memprediksi positif dan itu salah.
 Interpretasi: Anda memprediksi negatif dan itu salah.
 
 ### Metrik evaluasi
-Pada kasus klasifikasi kali ini saya hanya menggunakan 1 metrik yaitu akurasi, alasan saya menggunkan akurasi adalah karena akurasi merupakan metrik klasifikasi klasik. dan cukup mudah untuk dipahami serta cocok untuk masalah klasifikasi multiclass.
+Pada kasus kali ini saya hanya menggunakan 1 metrik yaitu akurasi, alasan saya menggunkan akurasi adalah karena akurasi merupakan metrik klasik. dan cukup mudah untuk dipahami serta cocok untuk mencari model terbaik
 Rumus dari akurasi sendiri adalah sebagai berikut:
 Accuracy = (TP+TN)/(TP+FP+FN+TN)
 Akurasi adalah proporsi hasil yang benar di antara jumlah total kasus yang diperiksa.
 
-Berikut merupakan perbandingan hasil akurasi dari 3 model yang digunakan
-![alternate text](https://github.com/rionando/MLT-1/blob/main/image%208.jpg?raw=true)
+dari model svm dan logistics reggression sebenarnya memiliki hasil yang tidak jauh beda yaitu
+SVM                   : 0.9580766461316905
+Logistics Regression  : 0.9583166653332267
 
-dari hasil tersebut model Random forest memiliki tingkat akurasi paling tinggi
+dari hasil tersebut model Logistics Regression memiliki tingkat akurasi paling tinggi
