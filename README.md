@@ -1,4 +1,5 @@
-# Laporan Proyek Analisis Sentimen Aplikasi MyIndohome - Muhammad Rionando D
+# Laporan Proyek Analisis Sentimen Aplikasi MyIndohome 
+- Muhammad Rionando D
 ## Perbandingan Analisis Sentimen Review Aplikasi MyIndihome Menggunakan Algoritma Support Vector Machine (SVM) dan Logistic Regression  
 
 ### Project Intern Telkom REG 4
@@ -13,18 +14,17 @@ Pada kasus ini saya ingin melakukan analisis sentimen terhadap review aplikasi M
 
 
 ### Problem Statements
-1. Dari berbagai macam data karakteristik pelanggan variabel mana yang paling berpengaruh terhadap kemungkinan bayar sukses
-2. Dari 3 model yaitu Decision Tree, Random Forest dan KNN mana yang memiliki akurasi paling tinggi
+1. Banyak review negatif dan ratings yang kecil pada aplikasi myIndihome yang terdapat pada playstore
+2. Dari 2 model yaitu SVM dan logistics Regression mana yang memiliki akurasi paling tinggi
 
 ### Goals
-1. Mengetahui variabel karakteristik apa yang paling berpengaruh terhadap kesuksesan bayar pelanggan.
+1. Mengetahui hasil analisis sentimen data review pengguna aplikasi myIndiHome yang ada pada playstore
 2. Membuat model machine learning terbaik untuk memprediksi kasus ini
 
 ### Solution statements
-Pada kasus kali ini saya menggunakan 3 model machine learning yaitu:
-- **Decision tree**. Decision tree merupakan salah satu bentuk algoritma pembelajaran terbaik berdasarkan berbagai metode pembelajaran. Mereka meningkatkan model prediktif dengan akurasi, kemudahan dalam interpretasi, dan stabilitas.
-- **Random Forest**. Algoritma random forest adalah salah satu algoritma supervised learning. Ia dapat digunakan untuk menyelesaikan masalah klasifikasi dan regresi. Random forest juga merupakan algoritma yang sering digunakan karena cukup sederhana tetapi memiliki stabilitas yang mumpuni.
-- **KNN**. KNN bekerja dengan membandingkan jarak satu sampel ke sampel pelatihan lain dengan memilih sejumlah k-tetangga terdekat. Nah, itulah mengapa algoritma ini dinamakan K-nearest neighbor (sejumlah k tetangga terdekat). 
+Pada kasus kali ini saya menggunakan 2 model machine learning yaitu:
+- **SVM**. Support Vector Machine (SVM) merupakan salah satu metode dalam supervised learning yang biasanya digunakan untuk klasifikasi (seperti Support Vector Classification) dan regresi (Support Vector Regression). Dalam pemodelan klasifikasi, SVM memiliki konsep yang lebih matang dan lebih jelas secara matematis dibandingkan dengan teknik-teknik klasifikasi lainnya.
+- **Logistics Regression**. Regresi logistik (kadang disebut model logistik atau model logit), dalam statistika digunakan untuk prediksi probabilitas kejadian suatu peristiwa dengan mencocokkan data pada fungsi logit kurva logistik..
 
 ## Data Understanding
 Dataset yang saya gunakan pada kasus ini bersumber dari kaggle [Bank Loan Modelling](https://www.kaggle.com/itsmesunil/bank-loan-modelling/code) yang memiliki dimensi 5000 X 14 variabel-variabelnya antaralain:
