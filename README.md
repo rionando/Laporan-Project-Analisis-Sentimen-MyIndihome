@@ -54,7 +54,7 @@ Cleansing merupakan step data yang akan diolah harus dibersihkan terlebih dahulu
 
 ## Modeling
 Pada Kasus ini saya menggunakan 2 model machine learning yaitu Support Vector Machine (SVM) dan Logistics Regression serta metric yang saya gunakan kali ini hanyalah Accuracy
-
+berikut link notebook [modellinganya ](https://github.com/rionando/Scraping-Data-Playstore/blob/main/Scrapping_MyIndihome.ipynb) 
 ### SVM
 Cara kerja dari metode Support Vector Machine khususnya pada masalah non-linear adalah dengan memasukkan konsep kernel ke dalam ruang berdimensi tinggi. Tujuannya adalah untuk mencari hyperplane atau pemisah yang dapat memaksimalkan jarak (margin) antar kelas data.
 
