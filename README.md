@@ -43,6 +43,11 @@ berikut merupakan variable yang akan kita gunakan dalam proses analisis sentimen
 - at : waktu review
 - content : review pengguna
 
+## Visualisasi Data
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/edaa.jpg)
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/eda%201.jpg)
+![alternate text](https://github.com/rionando/Laporan-Project-Analisis-Sentimen-MyIndihome/blob/main/eda%202.jpg)
+
 ## Data Preparation
 ### Pelabelan
 Melakukan pelabelan terhadap komen review oleh pengguna berdasarkan nilai ratings yang mereka berikan disini saya mebaginya menjadi 2 yaitu ratings 1-3 artinya buruk atau negatif dan ratings 4-5 artinya positif atau bagus 
